@@ -352,7 +352,7 @@ public class BoxController : MonoBehaviour
         {
             Debug.Log($"Box {boxColor} complete!");
             GameManager.Instance.OnBoxCompleted(this);
-            gameObject.SetActive(false);
+            //gameObject.SetActive(false);
         }
     }
 
